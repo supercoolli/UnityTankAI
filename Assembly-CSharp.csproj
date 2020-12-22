@@ -63,8 +63,10 @@
     <Compile Include="Assets\TankAssets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\TankAssets\_Completed-Assets\Scripts\Shell\ShellExplosion.cs" />
     <Compile Include="Assets\TankAssets\_Completed-Assets\Scripts\Managers\TankManager.cs" />
+    <Compile Include="Assets\Scripts\Unit.cs" />
     <Compile Include="Assets\TankAssets\_Completed-Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\TankAssets\Scripts\Tank\TankMovement.cs" />
+    <Compile Include="Assets\Scripts\WorldController.cs" />
     <Compile Include="Assets\TankAssets\Scripts\UI\UIDirectionControl.cs" />
     <Compile Include="Assets\TankAssets\_Completed-Assets\Scripts\Tank\TankShooting.cs" />
     <Compile Include="Assets\TankAssets\TutorialInfo\Scripts\Readme.cs" />
@@ -72,8 +74,16 @@
     <Compile Include="Assets\TankAssets\Scripts\Tank\TankHealth.cs" />
     <Compile Include="Assets\TankAssets\Scripts\Shell\ShellExplosion.cs" />
     <Compile Include="Assets\TankAssets\Scripts\Camera\CameraControl.cs" />
-    <Compile Include="Assets\Scripts\Unit.cs" />
-    <Compile Include="Assets\Scripts\WorldController.cs" />
+    <Compile Include="Assets\Scripts\Tank.cs" />
+    <Compile Include="Assets\Scripts\StandalonePlayerInput.cs" />
+    <Compile Include="Assets\Scripts\ShootObject.cs" />
+    <Compile Include="Assets\Scripts\TankDriver.cs" />
+    <Compile Include="Assets\SPINACH\ISMath.cs" />
+    <Compile Include="Assets\SPINACH\AI\NeuralNetwork\NeuralNetwork.cs" />
+    <Compile Include="Assets\SPINACH\AI\NeuralNetwork\ActivationFunction.cs" />
+    <Compile Include="Assets\SPINACH\AI\Genetic\GeneticOptimisation.cs" />
+    <Compile Include="Assets\SPINACH\AI\Genetic\GeneticOptimizeableNerualNetwork.cs" />
+    <Compile Include="Assets\Scripts\UIController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TankAssets\Fonts\Bowlby_One\FontLicense.txt" />
